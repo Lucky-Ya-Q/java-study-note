@@ -3,12 +3,15 @@
 layout: home
 
 hero:
-  name: "Java学习笔记"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Java"
+  text: "学习笔记"
+  tagline: Get what you want.
+  image:
+    src: /logo.png
+    alt: Java学习笔记
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 开始
       link: /markdown-examples
     - theme: alt
       text: API Examples
