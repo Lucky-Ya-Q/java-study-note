@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: 'Java学习笔记',
-    titleTemplate: '不积跬步，无以至千里',
+    titleTemplate: 'Get what you want.',
     ignoreDeadLinks: true,
     markdown: {
         lineNumbers: true
