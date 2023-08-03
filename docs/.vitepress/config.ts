@@ -12,7 +12,12 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: '主页', link: '/'},
-            {text: '微服务', link: '/微服务/', activeMatch: '/微服务/'}
+            {text: '微服务', link: '/微服务/', activeMatch: '/微服务/'},
+            {
+                text: '更多', activeMatch: '/更多/', items: [
+                    {text: '内网穿透', link: '/更多/内网穿透'}
+                ]
+            }
         ],
 
         socialLinks: [
@@ -40,6 +45,7 @@ export default defineConfig({
             ]
         },
 
+        outline: {label: '本页目录'},
         editLink: {
             pattern: 'https://github.com/Lucky-Ya-Q/java-study-note/edit/main/docs/:path',
             text: '在 GitHub 上编辑此页面'
