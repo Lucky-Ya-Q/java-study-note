@@ -25,8 +25,10 @@ export default defineConfig({
                     text: '微服务',
                     items: [
                         {text: 'Nacos 注册中心', link: '/微服务/Nacos 注册中心'},
-                        {text: 'Nacos 配置中心', link: '/微服务/Nacos 配置中心'},
-                        {text: 'Sentinel 流量治理', link: '/微服务/Sentinel 流量治理'}
+                        {text: 'Ribbon 负载均衡', link: '/微服务/Ribbon 负载均衡'},
+                        {text: 'Sentinel 流量治理', link: '/微服务/Sentinel 流量治理'},
+                        {text: 'Gateway 服务网关', link: '/微服务/Gateway 服务网关'},
+                        {text: 'Nacos 配置中心', link: '/微服务/Nacos 配置中心'}
                     ]
                 }
             ]
