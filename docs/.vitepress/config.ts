@@ -22,13 +22,19 @@ export default defineConfig({
         sidebar: {
             '微服务': [
                 {
-                    text: '微服务',
+                    text: 'Spring Cloud',
+                    items: [
+                        {text: 'Ribbon 负载均衡', link: '/微服务/Ribbon 负载均衡'},
+                        {text: 'Gateway 服务网关', link: '/微服务/Gateway 服务网关'}
+                    ]
+                },
+                {
+                    text: 'Spring Cloud Alibaba',
                     items: [
                         {text: 'Nacos 注册中心', link: '/微服务/Nacos 注册中心'},
-                        {text: 'Ribbon 负载均衡', link: '/微服务/Ribbon 负载均衡'},
+                        {text: 'Nacos 配置中心', link: '/微服务/Nacos 配置中心'},
                         {text: 'Sentinel 流量治理', link: '/微服务/Sentinel 流量治理'},
-                        {text: 'Gateway 服务网关', link: '/微服务/Gateway 服务网关'},
-                        {text: 'Nacos 配置中心', link: '/微服务/Nacos 配置中心'}
+                        {text: 'Seata 分布式事务', link: '/微服务/Seata 分布式事务'}
                     ]
                 }
             ]
