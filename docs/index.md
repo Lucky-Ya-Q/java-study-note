@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /markdown-examples
+      link: /微服务/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 微服务
+      link: /微服务/
 
 features:
   - title: Feature A

@@ -12,7 +12,6 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: '主页', link: '/'},
-            {text: 'Examples', link: '/markdown-examples'},
             {text: '微服务', link: '/微服务/', activeMatch: '/微服务/'}
         ],
 
@@ -21,15 +20,6 @@ export default defineConfig({
         ],
 
         sidebar: {
-            'markdown-examples': [
-                {
-                    text: 'Examples',
-                    items: [
-                        {text: 'Markdown Examples', link: '/markdown-examples'},
-                        {text: 'Runtime API Examples', link: '/api-examples'}
-                    ]
-                }
-            ],
             '微服务': [
                 {
                     text: '微服务',
